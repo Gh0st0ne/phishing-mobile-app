@@ -24,10 +24,6 @@ Copy all the content from [\\src\\api\\](https://github.com/ivan-sincek/phishing
 
 Change the database settings inside [\\src\\api\\php\\config.ini](https://github.com/ivan-sincek/phishing-app/blob/master/src/api/php/config.ini) as necessary.
 
-On web servers other than XAMPP (Apache) you might need to load `Multibyte String` librabry within PHP.
-
-In XAMPP it is as simple as uncommenting the `extension=mbstring` line in the `php.ini` file.
-
 Open the Command Prompt from [\\src\\phishing-app\\](https://github.com/ivan-sincek/phishing-mobile-app/tree/master/src/phishing-app) and run the commands shown below.
 
 If you are using up-to-date version of React Native and Node.js, install Node Version Manager, then, install and set Node.js to the required version:
@@ -56,6 +52,12 @@ Launch the application on an iOS device:
 ```fundamental
 react-native run-ios
 ```
+
+---
+
+On web servers other than XAMPP (Apache) you might need to load `Multibyte String` librabry within PHP.
+
+In XAMPP it is as simple as uncommenting the `extension=mbstring` line in the `php.ini` file.
 
 ## Application Content
 
